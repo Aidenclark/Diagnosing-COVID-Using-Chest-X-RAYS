@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>6d079974e54c40869822e1f3d1519ec2</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="phase-iii" class="cell markdown" id="7FziMA8Be3nv">
+<h1><strong>Phase III</strong></h1>
+</section>
+<div class="cell markdown" id="Tr1ybCWcAbHj">
+<ol>
+<li>obtain highest possible accuracy on the validation set</li>
+<li>train a model using the training set implementing ‘Earlystoping’ and ‘model checkpointing’</li>
+<li>Please study how the accuracy changes when the hyperparameters</li>
+</ol>
+</div>
+<div class="cell markdown" id="nVe3jPP6lFSC">
+<p><a href="https://colab.research.google.com/github/google/eng-edu/blob/master/ml/pc/exercises/image_classification_part1.ipynb#scrollTo=Wpr8GxjOU8in" class="uri">https://colab.research.google.com/github/google/eng-edu/blob/master/ml/pc/exercises/image_classification_part1.ipynb#scrollTo=Wpr8GxjOU8in</a></p>
+</div>
+<section id="import-images" class="cell markdown" id="1BsIgD56Agzl">
+<h1><strong>Import Images</strong></h1>
+</section>
+<div class="cell markdown" id="7k8QZzhxpwAM">
+<p>Images come from google drive.</p>
+</div>
+<div class="cell code" data-execution_count="1" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="opps7xg48CdQ" data-outputId="564da5c4-d70a-4e28-a47b-76573267ea9c">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">&#39;/content/gdrive&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mounted at /content/gdrive
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="2" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="zQJTc_Fk93d7" data-outputId="2141231b-e9cb-442d-88ca-5d584d1c8ea5">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> ls gdrive<span class="op">/</span>My<span class="op">\</span> Drive<span class="op">/</span>XRAY4</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Files
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="3" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="n-xM_INx-72p" data-outputId="b2869f71-6fbf-46d9-f82b-1c339be10213">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> cp <span class="op">-</span>r gdrive<span class="op">/</span>My<span class="op">\</span> Drive<span class="op">/</span>XRAY4 .</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="op">!</span> ls </span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>gdrive	sample_data  XRAY4
+</code></pre>
+</div>
+</div>
+<section id="building-generators" class="cell markdown" id="Fj6NrwiHcarm">
+<h1><strong>Building Generators</strong></h1>
+</section>
+<div class="cell code" data-execution_count="4" id="XAeXrmf-cdBv">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.datasets <span class="im">import</span> mnist</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.utils <span class="im">import</span> to_categorical</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> <span class="op">*</span></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> <span class="op">*</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="5" id="54xYjHrXYmsO">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.preprocessing.image <span class="im">import</span> ImageDataGenerator</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="6" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Ag2H5sP_H6C1" data-outputId="5cc25f16-3095-4e66-d48a-ce9ab030c3da">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> drive</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>drive.mount(<span class="st">&#39;/content/drive&#39;</span>, force_remount<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Mounted at /content/drive
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="7" id="9uMPIZnmYuVZ">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Rescale by 1./255</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>my_generator <span class="op">=</span> ImageDataGenerator(rescale<span class="op">=</span><span class="fl">1.</span><span class="op">/</span><span class="dv">255</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="8" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="l5fJoUYMY2qQ" data-outputId="be2ed113-12a6-4084-9a73-f5d1965eea2c">
+<div class="sourceCode" id="cb12"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generator for training dataset</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>train_generator <span class="op">=</span> my_generator.flow_from_directory( <span class="st">&#39;/content/drive/MyDrive/XRAY4/Files/Data/train/&#39;</span>, target_size<span class="op">=</span>(<span class="dv">150</span>, <span class="dv">150</span>), batch_size<span class="op">=</span><span class="dv">4</span>, class_mode<span class="op">=</span><span class="st">&#39;binary&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Found 3492 images belonging to 2 classes.
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="9" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="Zfythe01g8-E" data-outputId="32bbc899-604b-4bfa-a57c-118281114282">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generator for validation dataset</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>valid_generator <span class="op">=</span> my_generator.flow_from_directory( <span class="st">&#39;/content/drive/MyDrive/XRAY4/Files/Data/validation/&#39;</span>, target_size<span class="op">=</span>(<span class="dv">150</span>, <span class="dv">150</span>), batch_size<span class="op">=</span><span class="dv">4</span>, class_mode<span class="op">=</span><span class="st">&#39;binary&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Found 665 images belonging to 2 classes.
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="10" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="U4bUr8rY_6Gx" data-outputId="e7e2436c-0016-49f5-9702-dd38e0a1097a">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Generator for test dataset</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>test_generator <span class="op">=</span> my_generator.flow_from_directory( <span class="st">&#39;/content/drive/MyDrive/XRAY4/Files/Data/test/&#39;</span>, target_size<span class="op">=</span>(<span class="dv">150</span>, <span class="dv">150</span>), batch_size<span class="op">=</span><span class="dv">4</span>, class_mode<span class="op">=</span><span class="st">&#39;binary&#39;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Found 1099 images belonging to 2 classes.
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="_BbdSTRvhOpq">
+<p><strong>Check that the generators are working:</strong></p>
+</div>
+<div class="cell code" data-execution_count="11" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="XaazUjJVhH9V" data-outputId="ac487ed2-f30d-4875-83f1-087646d8717c">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> my_batch <span class="kw">in</span> train_generator:</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="co"># my_batch is a tuple with images and labels</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    images <span class="op">=</span> my_batch[<span class="dv">0</span>]</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    labels <span class="op">=</span> my_batch[<span class="dv">1</span>]</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(labels)):</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Gives one image and its corresponding label</span></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>        plt.imshow(images[i])</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>        plt.colorbar()</span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a>        plt.show()</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(images[i].shape)</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(labels[i])</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">break</span></span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_7488df844796408ca63d6e05ca699bdd/316e488187dee483a97e8163621ba71fdcaabffd.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>(150, 150, 3)
+1.0
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="12" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="ku18l3jNAbcj" data-outputId="1c0a5235-c8ad-45ed-bf8f-316bb2eab291">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> my_batch <span class="kw">in</span> valid_generator:</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># my_batch is a tuple with images and labels</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>    images <span class="op">=</span> my_batch[<span class="dv">0</span>]</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>    labels <span class="op">=</span> my_batch[<span class="dv">1</span>]</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(labels)):</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Gives one image and its corresponding label</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>        plt.imshow(images[i])</span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>        plt.colorbar()</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>        plt.show()</span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(images[i].shape)</span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(labels[i])</span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">break</span></span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_7488df844796408ca63d6e05ca699bdd/f7ec3087126bd7730999c861889baf39e6f377b2.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>(150, 150, 3)
+1.0
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="13" data-colab="{&quot;height&quot;:0,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="dDY1OFDXAhMJ" data-outputId="e3871546-87a1-46e0-ab3c-a05d4d0fa03c">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> my_batch <span class="kw">in</span> test_generator:</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>    <span class="co"># my_batch is a tuple with images and labels</span></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>    images <span class="op">=</span> my_batch[<span class="dv">0</span>]</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>    labels <span class="op">=</span> my_batch[<span class="dv">1</span>]</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(labels)):</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Gives one image and its corresponding label</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>        plt.imshow(images[i])</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>        plt.colorbar()</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>        plt.show()</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(images[i].shape)</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(labels[i])</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">break</span></span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_7488df844796408ca63d6e05ca699bdd/9b19555d12edcf9dd204bd45db96be01af6cb5a0.png" /></p>
+</div>
+<div class="output stream stdout">
+<pre><code>(150, 150, 3)
+1.0
+</code></pre>
+</div>
+</div>
+<section id="building-the-models" class="cell markdown" id="GMRYaDQrmPtl">
+<h1><strong>Building the Models</strong></h1>
+</section>
+<div class="cell code" data-execution_count="14" id="B4EqFZyMmnQz">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.models <span class="im">import</span> Sequential</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras.layers <span class="im">import</span> MaxPooling2D, Dense, Conv2D, Flatten</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="15" id="z-YkCFY_A-EY">
+<div class="sourceCode" id="cb25"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> keras.callbacks <span class="im">import</span> EarlyStopping, ModelCheckpoint</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>cp_callback <span class="op">=</span> ModelCheckpoint(</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    filepath <span class="op">=</span> <span class="st">&#39;best_model.hdf5&#39;</span>, </span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>    monitor<span class="op">=</span><span class="st">&#39;val_accuracy&#39;</span>, </span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>    save_best_only <span class="op">=</span> <span class="va">True</span>, </span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>    save_weights_only <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>es_callback <span class="op">=</span> EarlyStopping(</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>    monitor<span class="op">=</span><span class="st">&#39;val_accuracy&#39;</span>, </span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>    mode<span class="op">=</span><span class="st">&#39;min&#39;</span>, </span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>    patience<span class="op">=</span><span class="dv">20</span></span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+</div>
+<div class="cell markdown" id="P_paELlrhRnW">
+<p><strong>Build a baseline model:</strong></p>
+</div>
+<div class="cell code" data-execution_count="16" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="ZyfYJwgkhTqQ" data-outputId="7d0954a3-2476-4da1-ec5b-31fc2b47efb8">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>model_baseline <span class="op">=</span> Sequential()</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>model_baseline.add( Conv2D( <span class="dv">16</span>, ( <span class="dv">3</span>, <span class="dv">3</span> ), activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span>, input_shape <span class="op">=</span> (<span class="dv">150</span>, <span class="dv">150</span>, <span class="dv">3</span>) ) )</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a>model_baseline.add( Conv2D( <span class="dv">4</span>, ( <span class="dv">3</span>, <span class="dv">3</span> ), activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span> ) )</span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>model_baseline.add( Flatten() )</span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>model_baseline.add( Dense( <span class="dv">10</span>, activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span> ) )</span>
+<span id="cb26-6"><a href="#cb26-6" aria-hidden="true" tabindex="-1"></a>model_baseline.add( Dense( <span class="dv">1</span>, activation <span class="op">=</span> <span class="st">&#39;sigmoid&#39;</span> ) )</span>
+<span id="cb26-7"><a href="#cb26-7" aria-hidden="true" tabindex="-1"></a>model_baseline.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d (Conv2D)             (None, 148, 148, 16)      448       
+                                                                 
+ conv2d_1 (Conv2D)           (None, 146, 146, 4)       580       
+                                                                 
+ flatten (Flatten)           (None, 85264)             0         
+                                                                 
+ dense (Dense)               (None, 10)                852650    
+                                                                 
+ dense_1 (Dense)             (None, 1)                 11        
+                                                                 
+=================================================================
+Total params: 853,689
+Trainable params: 853,689
+Non-trainable params: 0
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="TONHVxWym8dv">
+<p><strong>Building the 1st model</strong></p>
+</div>
+<div class="cell markdown" id="4tUjyAQEEHEK">
+<p>From overfit model from previous phase. Increased dense neuron count from 10 to 20.</p>
+</div>
+<div class="cell code" data-execution_count="17" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="E-vudCMdBN-p" data-outputId="d6ab602c-bd8d-42ab-af41-3c43b14a065f">
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>model_1 <span class="op">=</span> Sequential()</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>model_1.add( Conv2D( <span class="dv">64</span>, ( <span class="dv">3</span>, <span class="dv">3</span> ), activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span>, input_shape <span class="op">=</span> (<span class="dv">150</span>, <span class="dv">150</span>, <span class="dv">3</span>) ) )</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>model_1.add( MaxPooling2D(<span class="dv">4</span>, <span class="dv">4</span>) )</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>model_1.add( Conv2D( <span class="dv">32</span>, ( <span class="dv">3</span>, <span class="dv">3</span> ), activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span> ) )</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>model_1.add( MaxPooling2D(<span class="dv">4</span>, <span class="dv">4</span>) )</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>model_1.add( Conv2D( <span class="dv">16</span>, ( <span class="dv">3</span>, <span class="dv">3</span> ), activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span> ) )</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>model_1.add(BatchNormalization())</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>model_1.add( Flatten() )</span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>model_1.add( Dense( <span class="dv">20</span>, activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span> ) )</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a>model_1.add( Dense( <span class="dv">1</span>, activation <span class="op">=</span> <span class="st">&#39;sigmoid&#39;</span> ) )</span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>model_1.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential_1&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_2 (Conv2D)           (None, 148, 148, 64)      1792      
+                                                                 
+ max_pooling2d (MaxPooling2D  (None, 37, 37, 64)       0         
+ )                                                               
+                                                                 
+ conv2d_3 (Conv2D)           (None, 35, 35, 32)        18464     
+                                                                 
+ max_pooling2d_1 (MaxPooling  (None, 8, 8, 32)         0         
+ 2D)                                                             
+                                                                 
+ conv2d_4 (Conv2D)           (None, 6, 6, 16)          4624      
+                                                                 
+ batch_normalization (BatchN  (None, 6, 6, 16)         64        
+ ormalization)                                                   
+                                                                 
+ flatten_1 (Flatten)         (None, 576)               0         
+                                                                 
+ dense_2 (Dense)             (None, 20)                11540     
+                                                                 
+ dense_3 (Dense)             (None, 1)                 21        
+                                                                 
+=================================================================
+Total params: 36,505
+Trainable params: 36,473
+Non-trainable params: 32
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="HLmTPT97EVFF">
+<p><strong>Building the 2nd model</strong></p>
+</div>
+<div class="cell markdown" id="3WFGPUf8EVk2">
+<p>Increasing kernel size from 3x3 to 5x5</p>
+</div>
+<div class="cell code" data-execution_count="27" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="uCnVC06VEZGo" data-outputId="2c37eb52-c553-4214-8ff7-7629eba96ad0">
+<div class="sourceCode" id="cb30"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>model_2 <span class="op">=</span> Sequential()</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>model_2.add( Conv2D( <span class="dv">64</span>, ( <span class="dv">3</span>, <span class="dv">3</span> ), activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span>, input_shape <span class="op">=</span> (<span class="dv">150</span>, <span class="dv">150</span>, <span class="dv">3</span>) ) )</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>model_2.add( MaxPooling2D(<span class="dv">4</span>, <span class="dv">4</span>) )</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>model_2.add( Conv2D( <span class="dv">32</span>, ( <span class="dv">3</span>, <span class="dv">3</span> ), activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span> ) )</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>model_2.add(BatchNormalization())</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>model_2.add( Conv2D( <span class="dv">16</span>, ( <span class="dv">3</span>, <span class="dv">3</span> ), activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span> ) )</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>model_2.add( MaxPooling2D(<span class="dv">4</span>, <span class="dv">4</span>) )</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>model_2.add( Flatten() )</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>model_2.add( Dense( <span class="dv">20</span>, activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span> ) )</span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>model_2.add( Dense( <span class="dv">1</span>, activation <span class="op">=</span> <span class="st">&#39;softmax&#39;</span> ) )</span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>model_2.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential_4&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_10 (Conv2D)          (None, 148, 148, 64)      1792      
+                                                                 
+ max_pooling2d_6 (MaxPooling  (None, 37, 37, 64)       0         
+ 2D)                                                             
+                                                                 
+ conv2d_11 (Conv2D)          (None, 35, 35, 32)        18464     
+                                                                 
+ batch_normalization_3 (Batc  (None, 35, 35, 32)       128       
+ hNormalization)                                                 
+                                                                 
+ conv2d_12 (Conv2D)          (None, 33, 33, 16)        4624      
+                                                                 
+ max_pooling2d_7 (MaxPooling  (None, 8, 8, 16)         0         
+ 2D)                                                             
+                                                                 
+ flatten_4 (Flatten)         (None, 1024)              0         
+                                                                 
+ dense_8 (Dense)             (None, 20)                20500     
+                                                                 
+ dense_9 (Dense)             (None, 1)                 21        
+                                                                 
+=================================================================
+Total params: 45,529
+Trainable params: 45,465
+Non-trainable params: 64
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" id="qrDjtdWmGd7I">
+<p><strong>Building the 3rd model</strong></p>
+</div>
+<div class="cell markdown" id="gRuoFLduGg3T">
+<p>Adding an additional convolution layer</p>
+</div>
+<div class="cell code" data-execution_count="19" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="oylIaPpuGtQV" data-outputId="f12c9c3b-9192-44ea-fb66-4852994bf9ad">
+<div class="sourceCode" id="cb32"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>model_3 <span class="op">=</span> Sequential()</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>model_3.add( Conv2D( <span class="dv">32</span>, ( <span class="dv">3</span>, <span class="dv">3</span> ), activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span>, input_shape <span class="op">=</span> (<span class="dv">150</span>, <span class="dv">150</span>, <span class="dv">3</span>) ) )</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>model_3.add( MaxPooling2D(<span class="dv">4</span>, <span class="dv">4</span>) )</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>model_3.add( Conv2D( <span class="dv">10</span>, ( <span class="dv">3</span>, <span class="dv">3</span> ), activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span> ) )</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>model_3.add(BatchNormalization())</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>model_3.add( Conv2D( <span class="dv">10</span>, ( <span class="dv">3</span>, <span class="dv">3</span> ), activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span> ) )</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>model_3.add( MaxPooling2D(<span class="dv">4</span>, <span class="dv">4</span>) )</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>model_3.add( Flatten() )</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>model_3.add( Dense( <span class="dv">20</span>, activation <span class="op">=</span> <span class="st">&#39;relu&#39;</span> ) )</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>model_3.add( Dense( <span class="dv">1</span>, activation <span class="op">=</span> <span class="st">&#39;softmax&#39;</span> ) )</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>model_3.summary()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Model: &quot;sequential_3&quot;
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv2d_7 (Conv2D)           (None, 148, 148, 32)      896       
+                                                                 
+ max_pooling2d_4 (MaxPooling  (None, 37, 37, 32)       0         
+ 2D)                                                             
+                                                                 
+ conv2d_8 (Conv2D)           (None, 35, 35, 10)        2890      
+                                                                 
+ batch_normalization_2 (Batc  (None, 35, 35, 10)       40        
+ hNormalization)                                                 
+                                                                 
+ conv2d_9 (Conv2D)           (None, 33, 33, 10)        910       
+                                                                 
+ max_pooling2d_5 (MaxPooling  (None, 8, 8, 10)         0         
+ 2D)                                                             
+                                                                 
+ flatten_3 (Flatten)         (None, 640)               0         
+                                                                 
+ dense_6 (Dense)             (None, 20)                12820     
+                                                                 
+ dense_7 (Dense)             (None, 1)                 21        
+                                                                 
+=================================================================
+Total params: 17,577
+Trainable params: 17,557
+Non-trainable params: 20
+_________________________________________________________________
+</code></pre>
+</div>
+</div>
+<section id="compile-the-models" class="cell markdown" id="pDpAdBW9nBvZ">
+<h1><strong>Compile the Models</strong></h1>
+</section>
+<div class="cell code" data-execution_count="20" id="SjBRHpL81d1O">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> tensorflow.keras <span class="im">import</span> metrics</span></code></pre></div>
+</div>
+<div class="cell markdown" id="709yKKz-hYwA">
+<p><strong>Train the model using training generator and evaluate on validation generator</strong></p>
+</div>
+<div class="cell code" data-execution_count="21" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="d67xO3qnhdtM" data-outputId="513e0d63-c598-4e0a-9c33-b1286965c08e">
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>model_baseline.<span class="bu">compile</span>( optimizer <span class="op">=</span> <span class="st">&#39;adam&#39;</span>, loss <span class="op">=</span> <span class="st">&#39;binary_crossentropy&#39;</span>, metrics <span class="op">=</span> [ <span class="st">&#39;accuracy&#39;</span>, metrics.Precision(), metrics.Recall()  ] )</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Train using the training set and evaluate using the validation set</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>history_baseline <span class="op">=</span> model_baseline.fit( train_generator, validation_data <span class="op">=</span> valid_generator, epochs <span class="op">=</span> <span class="dv">5</span>, batch_size <span class="op">=</span> <span class="dv">256</span> )</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/5
+873/873 [==============================] - 218s 248ms/step - loss: 0.4011 - accuracy: 0.8368 - precision: 0.8309 - recall: 0.8797 - val_loss: 0.3248 - val_accuracy: 0.8647 - val_precision: 0.8498 - val_recall: 0.9428
+Epoch 2/5
+873/873 [==============================] - 216s 247ms/step - loss: 0.2072 - accuracy: 0.9347 - precision: 0.9397 - recall: 0.9407 - val_loss: 0.3713 - val_accuracy: 0.8451 - val_precision: 0.9030 - val_recall: 0.8333
+Epoch 3/5
+873/873 [==============================] - 224s 257ms/step - loss: 0.1412 - accuracy: 0.9513 - precision: 0.9568 - recall: 0.9538 - val_loss: 0.3680 - val_accuracy: 0.9008 - val_precision: 0.8717 - val_recall: 0.9801
+Epoch 4/5
+873/873 [==============================] - 233s 267ms/step - loss: 0.0401 - accuracy: 0.9865 - precision: 0.9879 - recall: 0.9874 - val_loss: 0.2690 - val_accuracy: 0.9218 - val_precision: 0.9051 - val_recall: 0.9726
+Epoch 5/5
+873/873 [==============================] - 229s 262ms/step - loss: 0.0188 - accuracy: 0.9960 - precision: 0.9963 - recall: 0.9963 - val_loss: 0.2569 - val_accuracy: 0.9368 - val_precision: 0.9369 - val_recall: 0.9602
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="22" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="cG8r5aEFnmOu" data-outputId="42a11ed1-0c8e-43ac-8e77-23d6eedb4402">
+<div class="sourceCode" id="cb37"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>model_1.<span class="bu">compile</span>( optimizer <span class="op">=</span> <span class="st">&#39;adam&#39;</span>, loss <span class="op">=</span> <span class="st">&#39;binary_crossentropy&#39;</span>, metrics <span class="op">=</span> [ <span class="st">&#39;accuracy&#39;</span>, metrics.Precision(), metrics.Recall()  ] )</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Train using the training set and evaluate using the validation set</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>history_1 <span class="op">=</span> model_1.fit( train_generator, validation_data <span class="op">=</span> valid_generator, epochs <span class="op">=</span> <span class="dv">5</span>, batch_size <span class="op">=</span> <span class="dv">256</span> )</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/5
+873/873 [==============================] - 218s 249ms/step - loss: 0.2354 - accuracy: 0.9061 - precision_1: 0.9016 - recall_1: 0.9291 - val_loss: 0.8344 - val_accuracy: 0.7549 - val_precision_1: 0.9761 - val_recall_1: 0.6095
+Epoch 2/5
+873/873 [==============================] - 214s 245ms/step - loss: 0.1710 - accuracy: 0.9333 - precision_1: 0.9336 - recall_1: 0.9449 - val_loss: 0.2578 - val_accuracy: 0.9053 - val_precision_1: 0.8725 - val_recall_1: 0.9876
+Epoch 3/5
+873/873 [==============================] - 213s 244ms/step - loss: 0.1534 - accuracy: 0.9424 - precision_1: 0.9451 - recall_1: 0.9496 - val_loss: 0.2539 - val_accuracy: 0.9128 - val_precision_1: 0.9725 - val_recall_1: 0.8806
+Epoch 4/5
+873/873 [==============================] - 217s 248ms/step - loss: 0.1342 - accuracy: 0.9496 - precision_1: 0.9543 - recall_1: 0.9533 - val_loss: 3.0819 - val_accuracy: 0.4511 - val_precision_1: 1.0000 - val_recall_1: 0.0920
+Epoch 5/5
+873/873 [==============================] - 217s 248ms/step - loss: 0.1195 - accuracy: 0.9568 - precision_1: 0.9582 - recall_1: 0.9627 - val_loss: 0.1413 - val_accuracy: 0.9414 - val_precision_1: 0.9311 - val_recall_1: 0.9751
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="28" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="le28CqW-Ou69" data-outputId="5b97ac19-c1be-4f14-90a1-b11358d1a275">
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>model_2.<span class="bu">compile</span>( optimizer <span class="op">=</span> <span class="st">&#39;adam&#39;</span>, loss <span class="op">=</span> <span class="st">&#39;binary_crossentropy&#39;</span>, metrics <span class="op">=</span> [ <span class="st">&#39;accuracy&#39;</span>, metrics.Precision(), metrics.Recall()  ] )</span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Train using the training set and evaluate using the validation set</span></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>history_2 <span class="op">=</span> model_2.fit( train_generator, validation_data <span class="op">=</span> valid_generator, epochs <span class="op">=</span> <span class="dv">5</span>, batch_size <span class="op">=</span> <span class="dv">256</span> )</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/5
+873/873 [==============================] - 232s 264ms/step - loss: 0.2341 - accuracy: 0.5452 - precision_6: 0.5452 - recall_6: 1.0000 - val_loss: 3.7552 - val_accuracy: 0.6045 - val_precision_6: 0.6045 - val_recall_6: 1.0000
+Epoch 2/5
+873/873 [==============================] - 221s 253ms/step - loss: 0.1667 - accuracy: 0.5452 - precision_6: 0.5452 - recall_6: 1.0000 - val_loss: 0.8365 - val_accuracy: 0.6045 - val_precision_6: 0.6045 - val_recall_6: 1.0000
+Epoch 3/5
+873/873 [==============================] - 224s 257ms/step - loss: 0.1484 - accuracy: 0.5452 - precision_6: 0.5452 - recall_6: 1.0000 - val_loss: 0.2029 - val_accuracy: 0.6045 - val_precision_6: 0.6045 - val_recall_6: 1.0000
+Epoch 4/5
+873/873 [==============================] - 220s 252ms/step - loss: 0.1333 - accuracy: 0.5452 - precision_6: 0.5452 - recall_6: 1.0000 - val_loss: 2.3153 - val_accuracy: 0.6045 - val_precision_6: 0.6045 - val_recall_6: 1.0000
+Epoch 5/5
+873/873 [==============================] - 226s 258ms/step - loss: 0.1222 - accuracy: 0.5452 - precision_6: 0.5452 - recall_6: 1.0000 - val_loss: 1.1531 - val_accuracy: 0.6045 - val_precision_6: 0.6045 - val_recall_6: 1.0000
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="26" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="un3126pBOxEg" data-outputId="ad6ad84b-b553-4938-9938-b3f315704bbf">
+<div class="sourceCode" id="cb41"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a>model_3.<span class="bu">compile</span>( optimizer <span class="op">=</span> <span class="st">&#39;adam&#39;</span>, loss <span class="op">=</span> <span class="st">&#39;binary_crossentropy&#39;</span>, metrics <span class="op">=</span> [ <span class="st">&#39;accuracy&#39;</span>, metrics.Precision(), metrics.Recall()  ] )</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Train using the training set and evaluate using the validation set</span></span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>history_3 <span class="op">=</span> model_3.fit( train_generator, validation_data <span class="op">=</span> valid_generator, epochs <span class="op">=</span> <span class="dv">5</span>, batch_size <span class="op">=</span> <span class="dv">256</span> )</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Epoch 1/5
+873/873 [==============================] - 199s 227ms/step - loss: 0.2490 - accuracy: 0.5452 - precision_5: 0.5452 - recall_5: 1.0000 - val_loss: 0.1937 - val_accuracy: 0.6045 - val_precision_5: 0.6045 - val_recall_5: 1.0000
+Epoch 2/5
+873/873 [==============================] - 195s 224ms/step - loss: 0.1704 - accuracy: 0.5452 - precision_5: 0.5452 - recall_5: 1.0000 - val_loss: 0.3839 - val_accuracy: 0.6045 - val_precision_5: 0.6045 - val_recall_5: 1.0000
+Epoch 3/5
+873/873 [==============================] - 213s 244ms/step - loss: 0.1427 - accuracy: 0.5452 - precision_5: 0.5452 - recall_5: 1.0000 - val_loss: 1.3817 - val_accuracy: 0.6045 - val_precision_5: 0.6045 - val_recall_5: 1.0000
+Epoch 4/5
+873/873 [==============================] - 194s 222ms/step - loss: 0.1271 - accuracy: 0.5452 - precision_5: 0.5452 - recall_5: 1.0000 - val_loss: 0.8220 - val_accuracy: 0.6045 - val_precision_5: 0.6045 - val_recall_5: 1.0000
+Epoch 5/5
+873/873 [==============================] - 194s 222ms/step - loss: 0.1177 - accuracy: 0.5452 - precision_5: 0.5452 - recall_5: 1.0000 - val_loss: 0.7057 - val_accuracy: 0.6045 - val_precision_5: 0.6045 - val_recall_5: 1.0000
+</code></pre>
+</div>
+</div>
+<section id="learning-curves" class="cell markdown" id="mzq-x0_EnvQC">
+<h1><strong>Learning Curves</strong></h1>
+</section>
+<div class="cell markdown" id="dUwjvQ2Wkm1U">
+<p><strong>Assess the learning curves</strong></p>
+</div>
+<div class="cell code" data-execution_count="29" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="htwMwBs_klAk" data-outputId="b525186b-48d4-42a5-8add-1673749f56b0">
+<div class="sourceCode" id="cb43"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(history_baseline.params)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;verbose&#39;: 1, &#39;epochs&#39;: 5, &#39;steps&#39;: 873}
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="30" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="HWk1D22mhOZh" data-outputId="73af2c8c-f066-4282-becf-ea81ba726237">
+<div class="sourceCode" id="cb45"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(history_1.params)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;verbose&#39;: 1, &#39;epochs&#39;: 5, &#39;steps&#39;: 873}
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="31" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="8bGHBFZQhQvM" data-outputId="cb86acf0-0304-411c-e4bb-bcc6978b40e8">
+<div class="sourceCode" id="cb47"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(history_2.params)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;verbose&#39;: 1, &#39;epochs&#39;: 5, &#39;steps&#39;: 873}
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="32" data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="OT30UwvNhSZW" data-outputId="fa20c981-3518-4622-e12e-c4f36c37db83">
+<div class="sourceCode" id="cb49"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(history_3.params)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>{&#39;verbose&#39;: 1, &#39;epochs&#39;: 5, &#39;steps&#39;: 873}
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="33" data-colab="{&quot;height&quot;:295,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="fwNXA-jvkuIP" data-outputId="39dcaa14-8803-4261-b3c2-b636da2da0af">
+<div class="sourceCode" id="cb51"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a>plt.plot(history_baseline.history[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>plt.plot(history_baseline.history[<span class="st">&#39;val_accuracy&#39;</span>])</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Accuracy&#39;</span>)</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epoch&#39;</span>)</span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Baseline Model&quot;</span>)</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;Training Data&#39;</span>, <span class="st">&#39;Validation Data&#39;</span>], loc<span class="op">=</span><span class="st">&#39;lower right&#39;</span>)</span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_7488df844796408ca63d6e05ca699bdd/efe3328831d3e89fcdb33f9400a3fecb5906b07f.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="36" data-colab="{&quot;height&quot;:295,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="zAjHhMf1wIHx" data-outputId="ac8bc064-9ae1-4c00-94a4-aae581260f7a">
+<div class="sourceCode" id="cb52"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a>plt.plot(history_1.history[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb52-2"><a href="#cb52-2" aria-hidden="true" tabindex="-1"></a>plt.plot(history_1.history[<span class="st">&#39;val_accuracy&#39;</span>])</span>
+<span id="cb52-3"><a href="#cb52-3" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Accuracy&#39;</span>)</span>
+<span id="cb52-4"><a href="#cb52-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epoch&#39;</span>)</span>
+<span id="cb52-5"><a href="#cb52-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Model 1&quot;</span>)</span>
+<span id="cb52-6"><a href="#cb52-6" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;Training Data&#39;</span>, <span class="st">&#39;Validation Data&#39;</span>], loc<span class="op">=</span><span class="st">&#39;lower right&#39;</span>)</span>
+<span id="cb52-7"><a href="#cb52-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_7488df844796408ca63d6e05ca699bdd/6a051154a2f7f6a0c3682170790f1b4310af71a7.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="38" data-colab="{&quot;height&quot;:295,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="r740oPnLhk0Y" data-outputId="974b6f41-f49f-4005-8a6f-1e375f0dff79">
+<div class="sourceCode" id="cb53"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>plt.plot(history_2.history[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a>plt.plot(history_2.history[<span class="st">&#39;val_accuracy&#39;</span>])</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Accuracy&#39;</span>)</span>
+<span id="cb53-4"><a href="#cb53-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epoch&#39;</span>)</span>
+<span id="cb53-5"><a href="#cb53-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Model 2&quot;</span>)</span>
+<span id="cb53-6"><a href="#cb53-6" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;Training Data&#39;</span>, <span class="st">&#39;Validation Data&#39;</span>], loc<span class="op">=</span><span class="st">&#39;lower right&#39;</span>)</span>
+<span id="cb53-7"><a href="#cb53-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_7488df844796408ca63d6e05ca699bdd/6f7f4cd5244e339fbce6e34b9ce03ac6a26066a8.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="39" data-colab="{&quot;height&quot;:295,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="73NbJUnYhqoQ" data-outputId="0fc835b0-60aa-4d63-f75a-dbaa42235362">
+<div class="sourceCode" id="cb54"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>plt.plot(history_3.history[<span class="st">&#39;accuracy&#39;</span>])</span>
+<span id="cb54-2"><a href="#cb54-2" aria-hidden="true" tabindex="-1"></a>plt.plot(history_3.history[<span class="st">&#39;val_accuracy&#39;</span>])</span>
+<span id="cb54-3"><a href="#cb54-3" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Accuracy&#39;</span>)</span>
+<span id="cb54-4"><a href="#cb54-4" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Epoch&#39;</span>)</span>
+<span id="cb54-5"><a href="#cb54-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Model 3&quot;</span>)</span>
+<span id="cb54-6"><a href="#cb54-6" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;Training Data&#39;</span>, <span class="st">&#39;Validation Data&#39;</span>], loc<span class="op">=</span><span class="st">&#39;lower right&#39;</span>)</span>
+<span id="cb54-7"><a href="#cb54-7" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_7488df844796408ca63d6e05ca699bdd/2c00ffc79f8c68281ed20b1a0602c55bb5d18e58.png" /></p>
+</div>
+</div>
+<section id="evaluate-the-models" class="cell markdown" id="j3DnnwHBov4j">
+<h1><strong>Evaluate the Models</strong></h1>
+</section>
+<div class="cell code" data-colab="{&quot;height&quot;:281,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="_CObGiw4pBNs" data-outputId="c964f44c-38cc-48e4-f7a9-c0ce314f4ad4">
+<div class="sourceCode" id="cb55"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>plt.plot(history_baseline.history[<span class="st">&quot;precision_5&quot;</span>], color<span class="op">=</span><span class="st">&quot;red&quot;</span>)</span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a>plt.plot(history_baseline.history[<span class="st">&quot;recall_5&quot;</span>], color<span class="op">=</span><span class="st">&quot;green&quot;</span>)</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb55-4"><a href="#cb55-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Parameters = 853,689 (Baseline) &quot;</span>)</span>
+<span id="cb55-5"><a href="#cb55-5" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;Precision Score&#39;</span>, <span class="st">&#39;Recall Score&#39;</span>], loc<span class="op">=</span><span class="st">&#39;lower right&#39;</span>)</span>
+<span id="cb55-6"><a href="#cb55-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_7488df844796408ca63d6e05ca699bdd/17586ffd64f09f1e0155601d2b14c56a6c056568.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="61" data-colab="{&quot;height&quot;:281,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="AUb_P4fzqkgY" data-outputId="458cf1bd-4630-4175-bafc-91939acc98c4">
+<div class="sourceCode" id="cb56"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>plt.plot(history_1.history[<span class="st">&quot;precision_1&quot;</span>], color<span class="op">=</span><span class="st">&quot;red&quot;</span>)</span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>plt.plot(history_1.history[<span class="st">&quot;recall_1&quot;</span>], color<span class="op">=</span><span class="st">&quot;green&quot;</span>)</span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Parameters = 36,505 (Model 1) &quot;</span>)</span>
+<span id="cb56-5"><a href="#cb56-5" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;Precision Score&#39;</span>, <span class="st">&#39;Recall Score&#39;</span>], loc<span class="op">=</span><span class="st">&#39;lower right&#39;</span>)</span>
+<span id="cb56-6"><a href="#cb56-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_7488df844796408ca63d6e05ca699bdd/db1f327953cb88bb08c878df7c449acbdac87b35.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="63" data-colab="{&quot;height&quot;:281,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="2U1Av6jtlk7z" data-outputId="2c282214-a33b-494a-a3ca-44ae6cde8f25">
+<div class="sourceCode" id="cb57"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a>plt.plot(history_2.history[<span class="st">&quot;precision_6&quot;</span>], color<span class="op">=</span><span class="st">&quot;red&quot;</span>)</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a>plt.plot(history_2.history[<span class="st">&quot;recall_6&quot;</span>], color<span class="op">=</span><span class="st">&quot;green&quot;</span>)</span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Parameters = 45,529 (Model 2) &quot;</span>)</span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;Precision Score&#39;</span>, <span class="st">&#39;Recall Score&#39;</span>], loc<span class="op">=</span><span class="st">&#39;lower right&#39;</span>)</span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_7488df844796408ca63d6e05ca699bdd/cff5b7384e78540aa4f3fe8f0564a32d2acb2c09.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="65" data-colab="{&quot;height&quot;:281,&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}" id="MwJ5xh4bl3CB" data-outputId="2d7b51b1-aee0-4267-c74b-203712e6708b">
+<div class="sourceCode" id="cb58"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>plt.plot(history_3.history[<span class="st">&quot;precision_5&quot;</span>], color<span class="op">=</span><span class="st">&quot;red&quot;</span>)</span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a>plt.plot(history_3.history[<span class="st">&quot;recall_5&quot;</span>], color<span class="op">=</span><span class="st">&quot;green&quot;</span>)</span>
+<span id="cb58-3"><a href="#cb58-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb58-4"><a href="#cb58-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="ss">f&quot;Parameters = 17,577 (Model 3) &quot;</span>)</span>
+<span id="cb58-5"><a href="#cb58-5" aria-hidden="true" tabindex="-1"></a>plt.legend([<span class="st">&#39;Precision Score&#39;</span>, <span class="st">&#39;Recall Score&#39;</span>], loc<span class="op">=</span><span class="st">&#39;lower right&#39;</span>)</span>
+<span id="cb58-6"><a href="#cb58-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_7488df844796408ca63d6e05ca699bdd/6d3656ed4963cdd28a3b4fec703d692ea51ea7fb.png" /></p>
+</div>
+</div>
+</body>
+</html>
